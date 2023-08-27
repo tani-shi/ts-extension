@@ -143,13 +143,10 @@ Array.prototype.groupBy = function <T, K extends string | number>(
   this: Array<T>,
   func: (e: T, i: number) => K,
 ): Partial<Record<K, T[]>> {
-  return this.reduce(
-    (prev, curr, i) => {
-      const key = func(curr, i);
-      // eslint-disable-next-line no-param-reassign
-      (prev[key] || (prev[key] = []))!.push(curr);
-      return prev;
-    },
-    {} as Partial<Record<K, T[]>>,
-  );
+  return this.reduce((prev, curr, i) => {
+    const key = func(curr, i);
+    // eslint-disable-next-line no-param-reassign
+    (prev[key] || (prev[key] = []))!.push(curr);
+    return prev;
+  }, {} as Partial<Record<K, T[]>>);
 };
