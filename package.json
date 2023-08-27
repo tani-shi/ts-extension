@@ -5,10 +5,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/besheet/cell-function-parser.git"
+    "url": "https://github.com/tani-shi/ts-extension.git"
   },
-  "name": "@besheet/cell-function-parser",
-  "version": "1.0.4",
+  "name": "@tani-shi/ts-extension",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
