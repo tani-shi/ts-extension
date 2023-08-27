@@ -1,6 +1,6 @@
 {
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/tani-shi/ts-extension.git"
   },
   "name": "@tani-shi/ts-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
