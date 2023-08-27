@@ -1,11 +1,6 @@
 {
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tani-shi/ts-extension.git"
+    "access": "public"
   },
   "name": "@tani-shi/ts-extension",
   "version": "0.1.1",
