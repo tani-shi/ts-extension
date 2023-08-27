@@ -31,7 +31,6 @@
     "dist/",
     "LICENSE.md"
   ],
-  "dependencies": {},
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npx tsc -p ./tsconfig.json",
