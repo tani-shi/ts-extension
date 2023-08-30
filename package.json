@@ -9,7 +9,19 @@
     "url": "https://github.com/tani-shi/ts-extension/issues",
     "email": "shintaro.tanikawa@gmail.com"
   },
-  "version": "0.1.6",
+  "keywords": [
+    "extensions",
+    "Array",
+    "Date",
+    "Math",
+    "Number",
+    "String",
+    "JavaScript",
+    "TypeScript",
+    "utility",
+    "enhancements"
+  ],
+  "version": "0.1.7",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
