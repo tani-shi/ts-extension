@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install ts-extension
+npm install @tani-shi/ts-extension
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install ts-extension
 Once installed, you can import the package to enable the extensions:
 
 ```javascript
-import 'ts-extension';
+import '@tani-shi/ts-extension';
 ```
 
 Here's a quick overview of the provided methods:
@@ -87,7 +87,7 @@ console.log(num.formatBytes());  // Outputs: 1.00MB
 
 ### String
 ```javascript
-const str = "hello-world";
+const str = "Hello world";
 console.log(str.toKey());  // Outputs: hello-world
 ```
 

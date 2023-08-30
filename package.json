@@ -9,7 +9,7 @@
     "url": "https://github.com/tani-shi/ts-extension/issues",
     "email": "shintaro.tanikawa@gmail.com"
   },
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
