@@ -4,6 +4,11 @@
   },
   "name": "@tani-shi/ts-extension",
   "repository": "github:tani-shi/ts-extension",
+  "homepage": "https://github.com/tani-shi/ts-extension",
+  "bugs": {
+    "url": "https://github.com/tani-shi/ts-extension/issues",
+    "email": "shintaro.tanikawa@gmail.com"
+  },
   "version": "0.1.4",
   "main": "dist/index.js",
   "module": "dist/index.js",
