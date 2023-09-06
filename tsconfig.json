@@ -1,25 +1,14 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
+    "target": "ES5",
     "module": "ESNext",
-    "moduleResolution": "NodeNext",
     "lib": [
       "ES2022"
     ],
     "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true,
-    "noEmitOnError": true,
-    "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
     "declaration": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "isolatedModules": true,
-    "allowJs": false,
-    "esModuleInterop": true,
-    "noImplicitOverride": true
+    "downlevelIteration": true
   }
 }
