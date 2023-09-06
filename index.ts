@@ -1,5 +1,5 @@
-export * from './extensions/Array';
-export * from './extensions/Date';
-export * from './extensions/Math';
-export * from './extensions/Number';
-export * from './extensions/String';
+import './extensions/Array';
+import './extensions/Date';
+import './extensions/Math';
+import './extensions/Number';
+import './extensions/String';
